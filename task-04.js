@@ -1,7 +1,7 @@
 const credits = 23580;
 const pricePerDroid = 3000;
 let pageUses = prompt ('Какое количество дроидов вы бы хотели купить?')
-if (pageUses === null || isNaN(pageUses)) {
+if (pageUses === null || Number.isNaN(NaN)) {
 console.log('Отменено пользователем!')
 } else {
 const totalPrice = pageUses*pricePerDroid;
